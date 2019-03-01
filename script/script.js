@@ -1,6 +1,6 @@
 function myfunction() {
-    let num = document.getElementById("one").value;
-    let num2 = document.getElementById("two").value;
-    let a = Math.max(num, num2);
-    return("The largest of the numbers entered is "+a)
+    let num = document.getElementById("models").value;
+    let num2 = document.getElementById("attributesPerModel").value;
+    let ans = parseInt(num) * parseInt(num2);
+    document.getElementById("ans").innerHTML = 'Answer: ' + ans;
 }
